@@ -5,8 +5,17 @@ template<class ItemType>
 class ContainerInterface
 {
  public:
-  virtual void push_back(const ItemType & item);
-  virtual void pop_back(void);
+  /*
+  */
+  virtual void assign(void) = 0;
+ 
+  /*
+  */
+  virtual void push_back(const ItemType & item) = 0;
+ 
+  /*
+  */
+  virtual void pop_back(void) = 0;
 };
 
 #endif
