@@ -3,6 +3,8 @@
 
 namespace ds
 {
+  template<class T, size_t N>
+  class Array;
 }
 
 #endif
